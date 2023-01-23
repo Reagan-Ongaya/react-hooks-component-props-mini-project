@@ -4,6 +4,9 @@ import About from "../components/About";
 
 test("renders a <aside> element", () => {
   const { container } = render(<About />);
+  <aside>
+    <img src="https://via.placeholder.com/215 Links to an external site."></img>
+  </aside>
   expect(container.querySelector("aside")).toBeInTheDocument();
 });
 
